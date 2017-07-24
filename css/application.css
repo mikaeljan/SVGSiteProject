@@ -5,7 +5,7 @@ body {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #111;
-  background: url("images/background.png") #edeff0; }
+  background: url("../svgs/background.svg") #edeff0; }
 
 #container {
   max-width: 960px;
@@ -72,12 +72,25 @@ footer {
   padding-bottom: 30px;
   color: #ba8058; }
 
-.logo {
+.st0 {
+  color: yellow; }
+
+.logo-image {
   width: 150px;
   height: 120px; }
+
+.logo-headline {
+  display: none; }
 
 .corgi {
   width: 170px;
   height: 170px; }
+
+@media screen and (max-width: 425px) {
+  .logo-headline {
+    display: block; }
+
+  .st1 {
+    display: none; } }
 
 /*# sourceMappingURL=application.css.map */
