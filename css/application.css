@@ -72,8 +72,11 @@ footer {
   padding-bottom: 30px;
   color: #ba8058; }
 
-.st0 {
-  color: yellow; }
+.nav-logo {
+  transition: fill; }
+
+a:hover .nav-logo {
+  fill: #681a1a; }
 
 .logo-image {
   width: 150px;

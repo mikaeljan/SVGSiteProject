@@ -83,10 +83,12 @@ footer {
   color: #ba8058;
 }
 // Navigation images
-.st0 {
-  color:yellow;
+.nav-logo {
+  transition:fill;
 }
-
+a:hover .nav-logo {
+  fill: darken(brown, 15%);
+}
 
 //Logo Image
 .logo-image {
