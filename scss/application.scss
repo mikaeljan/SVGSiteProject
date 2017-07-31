@@ -83,17 +83,17 @@ footer {
   color: #ba8058;
 }
 // Navigation images
-.nav-logo {
+.nav-icon {
   transition:fill;
 }
-a:hover .nav-logo {
+a:hover .nav-icon {
   fill: darken(brown, 15%);
 }
 
 //Logo Image
 .logo-image {
-  width: 150px;
-  height:120px;
+  width: 140px;
+  height: 120px;
 }
 .logo-headline {
   display:none
